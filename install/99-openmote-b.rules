@@ -1,0 +1,4 @@
+SUBSYSTEM=="tty", KERNELS=="1-1.1.2:1.1", ATTRS{interface}=="Dual RS232-HS", SYMLINK+="openmote-b_1"
+SUBSYSTEM=="tty", KERNELS=="1-1.1.3:1.1", ATTRS{interface}=="Dual RS232-HS", SYMLINK+="openmote-b_2"
+SUBSYSTEM=="tty", KERNELS=="1-1.2:1.1",   ATTRS{interface}=="Dual RS232-HS", SYMLINK+="openmote-b_3"
+SUBSYSTEM=="tty", KERNELS=="1-1.3:1.1",   ATTRS{interface}=="Dual RS232-HS", SYMLINK+="openmote-b_4"
